@@ -32,7 +32,7 @@ const TAB_DATA: any = [
     content: (
       <ul className="list-disc pl-2">
         <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Bahir Dar university</li>
       </ul>
     ),
   },
@@ -43,6 +43,7 @@ const TAB_DATA: any = [
       <ul className="list-disc pl-2">
         <li>AWS Cloud Practitioner</li>
         <li>Google Professional Cloud Developer</li>
+        <li>IBM Introdu ction to Softw are Engineering</li>
       </ul>
     ),
   },
@@ -112,40 +113,6 @@ const AboutSection = () => {
             {TAB_DATA.find((t: any) => t.id === tab).content}
           </div>
         </motion.div>
-        {/* <div>
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg text-gray-300">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
-          </p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              <span> Skills</span>
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              <span> Education</span>
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              <span>Certifications</span>
-            </TabButton>
-          </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t: any) => t.id === tab).content}
-          </div>
-        </div> */}
       </div>
     </section>
   );
