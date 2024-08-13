@@ -3,7 +3,6 @@ import { FiMonitor } from "react-icons/fi";
 import { FaCode } from "react-icons/fa6";
 import { ImMobile } from "react-icons/im";
 import { SiBlockchaindotcom } from "react-icons/si";
-import { DiResponsive } from "react-icons/di";
 const Service = () => {
   const services = [
     {
