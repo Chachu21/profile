@@ -23,6 +23,10 @@ const TAB_DATA: any = [
         <li>MongoDb</li>
         <li>Rell</li>
         <li>Chromia</li>
+        <li>Nuxt js</li>
+        <li>Vue js</li>
+        <li>git</li>
+        <li>Redux</li>
       </ul>
     ),
   },

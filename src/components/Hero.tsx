@@ -49,20 +49,20 @@ const Hero = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[20px] lg:text-[24px] font-semibold capitalize leading-[1]"
+              className="mb-6 text-[20px] lg:text-[24px] font-semibold  leading-[1]"
             >
-              <span className="text-gray-400 mr-4">I am a</span>
+              <span className="text-gray-400 mr-3">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Fullstack Developer",
+                  "fullstack developer",
                   2000,
-                  "Blockchain Developer",
+                  "blockchain developer",
                   2000,
-                  "mobile App Developer",
+                  "mobile app developer",
                   2000,
                 ]}
                 speed={50}
-                className="text-gray-400 text-2xl"
+                className="text-gray-400 text-xl md:text-2xl"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -73,7 +73,7 @@ const Hero = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+              className="flex max-w-max md:gap-x-6 gap-x-3 items-center mb-12 mx-auto lg:mx-0"
             >
               <button
                 onClick={scrollToContact}
@@ -82,12 +82,26 @@ const Hero = () => {
                 Contact Me
               </button>
               <a
-                href="https://github.com/Chachu21"
+                href="https://drive.google.com/file/d/12rqJwG1nt1jbP36Ho1wrtT0YyMdoMLo9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gradient btn-link cursor-pointer"
+                className="text-gradient btn-link cursor-pointer flex space-x-1 items-center"
               >
-                My Portfolio
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6 text-white flex"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+                <span>Resume</span>
               </a>
             </motion.div>
             {/* socials */}
@@ -119,7 +133,7 @@ const Hero = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] max-h-[400px] md:max-w-[482px]"
+            className="hidden lg:flex flex-1 max-w-[320px] max-h-[382px] md:max-w-[382px]"
           >
             <Image className="rounded-full" src={Imagee} alt="profile" />
           </motion.div>
