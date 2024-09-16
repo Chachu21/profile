@@ -42,22 +42,14 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "../asset/equb.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "online contact store site",
     description: "Project 5 description",
-    image: "../asset/equb.jpg",
+    image: "../asset/contact.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Chachu21/online_contact_store",
     previewUrl: "/",
   },
 ];
