@@ -13,8 +13,6 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
-  console.log(window.innerWidth);
-
   const handleLinkClick = (url: string) => {
     setOuter(url);
     toggleMenu();
