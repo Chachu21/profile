@@ -26,13 +26,13 @@ const Service = () => {
       description:
         "Mobile app development is the process of creating and maintaining mobile apps. It encompasses the coding and programming of a mobile app, as well as the design and functionality of the mobile app.",
     },
-    {
-      id: 4,
-      title: "Blockchain Development",
-      icon: <SiBlockchaindotcom />,
-      description:
-        "Blockchain development is the process of creating and maintaining blockchain applications. It encompasses the coding and programming of a blockchain application, as well as the design and functionality of the blockchain application.",
-    },
+    // {
+    //   id: 4,
+    //   title: "Blockchain Development",
+    //   icon: <SiBlockchaindotcom />,
+    //   description:
+    //     "Blockchain development is the process of creating and maintaining blockchain applications. It encompasses the coding and programming of a blockchain application, as well as the design and functionality of the blockchain application.",
+    // },
     // {
     //   id: 5,
     //   icon: <DiResponsive />,
@@ -53,7 +53,7 @@ const Service = () => {
           services.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service) => (
           <div
             key={service.id}

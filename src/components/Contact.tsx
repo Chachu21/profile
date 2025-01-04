@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
               <ul className="flex flex-col space-y-3">
                 <li className="flex space-x-3 text-lg items-center">
                   <IoLocationOutline size={28} className="text-green-500" />{" "}
-                  <span>6000, Bahir Dar, Ethiopia</span>
+                  <span>1000, Adiss Ababa, Ethiopia</span>
                 </li>
                 <li className="flex space-x-3 text-lg items-center">
                   <FaPhone size={28} className="text-blue-500" />{" "}

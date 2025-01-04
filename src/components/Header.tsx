@@ -71,7 +71,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [Links]);
 
   return (
     <section className="fixed top-0 z-50 left-1/2 transform -translate-x-1/2 max-w-screen-xl container mx-auto">
@@ -79,7 +79,9 @@ const Header = () => {
         <div className="py-4 md:flex md:justify-between md:items-center px-3 md:px-0 bg-[#0A192F]">
           <div className="flex items-center justify-between z-50 ">
             <Link href="/">
-              <h1 className="capitalize font-bold text-2xl">chalachew</h1>
+              <h1 className="capitalize font-bold text-2xl cursor-pointer">
+                chalachew
+              </h1>
             </Link>
 
             {/* Mobile menu button */}
@@ -133,7 +135,7 @@ const Header = () => {
                   key={link.id}
                 >
                   <li
-                    className={`my-3 list-none text-gray-300 text-xl capitalize transition-colors duration-300 transform  ${
+                    className={`my-3 list-none text-gray-300 cursor-pointer text-xl capitalize transition-colors duration-300 transform  ${
                       activeSection === link.url
                         ? "underline underline-offset-[12px]"
                         : "hover:underline hover:underline-offset-[12px]"

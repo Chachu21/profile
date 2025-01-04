@@ -39,7 +39,7 @@ const Hero = () => {
               <span className="text-lg md:text-2xl"> Hi there, 👋</span>
               <br />
               <br />
-              Chalachew Tsegaye
+              I&apos;m Chalachew Tsegaye
               <br />
               <br />
               <br />
@@ -56,8 +56,8 @@ const Hero = () => {
                 sequence={[
                   "fullstack developer",
                   2000,
-                  "blockchain developer",
-                  2000,
+                  // "blockchain developer",
+                  // 2000,
                   "mobile app developer",
                   2000,
                 ]}
@@ -82,7 +82,7 @@ const Hero = () => {
                 Contact Me
               </button>
               <a
-                href="https://drive.google.com/file/d/12rqJwG1nt1jbP36Ho1wrtT0YyMdoMLo9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1g3-kWHqE8OhKBe3cxbkb1KKzx0Av8Etb/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gradient btn-link cursor-pointer flex space-x-1 items-center"
