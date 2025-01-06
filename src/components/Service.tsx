@@ -49,7 +49,7 @@ const Service = () => {
       <div className="flex flex-col space-y-5 items-center">
         <h3 className="text-2xl font-bold">Services</h3>
         <p className="text-lg text-center">
-          I offer full stack development, Blockchain and mobile app development
+          I offer full stack development and mobile app development
           services.
         </p>
       </div>
